@@ -11,3 +11,38 @@ body{
 
     font-weight: bolder;
 }
+.active{
+    transition: 1s;
+    color:#333;}
+    .nav-link{
+        padding-right: 20px;
+        font-size: 15px;
+transition: 1s;
+    }
+    .nav-link:hover{
+
+
+        color: blue;
+    }
+    .fa-cart-shopping {
+        margin-left: 70px;
+
+
+    }
+    .fa-heart{
+        margin-left: 70px;
+    }
+    .contact{
+        background-color: #807f7f;
+        width:100%;
+       
+
+    }
+    .contact p{
+        color: #ffffff;
+        opacity: 0.7;
+        font-size: 25px;
+        text-align: center;
+    }
+    .contact div{display: inline;
+    }
