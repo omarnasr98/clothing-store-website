@@ -1,11 +1,43 @@
 body{
+
+
+    background-color: #d9d6d6;
+}
+.contact{
+    background-color: #333;
+    width: 100%;
+    position: relative;
+
+}
+.links{
+    display: inline;
+    width: 100%;
+    gap: 10px;
+    margin-right: 10px;
+    text-align:center;
     
+}
+.smka{margin: auto;}
+.links a{
+    padding: 5px, 15px;
+     text-align:left;
+}
+
+.p{
+
+color: white;
+font-size: 35px;
+text-align: center;
+padding-top: 20px;
+font-weight: bolder;
+text-transform: capitalize;
 }
 .navbar-brand{
 
     font-size: 40px;
     text-transform: capitalize;
     margin-right: 100px;
+    
 }
 .navbar-brand span{
 
@@ -32,17 +64,64 @@ transition: 1s;
     .fa-heart{
         margin-left: 70px;
     }
-    .contact{
-        background-color: #807f7f;
-        width:100%;
-       
+    .a1{
+       border-color: aliceblue; 
+      
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: capitalize;
+     font-weight: bolder;
+ 
+    position: absolute;
+    left: 90%;
+    right: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    }
+.a3{
+    border-color: aliceblue; 
+    
+    color: white;
+    font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+     text-transform: capitalize;
+position: absolute;
+left: 87%;
 
-    }
-    .contact p{
-        color: #ffffff;
-        opacity: 0.7;
-        font-size: 25px;
-        text-align: center;
-    }
-    .contact div{display: inline;
-    }
+text-decoration: none;
+
+}
+.a2{
+    border-color: aliceblue; 
+    
+    color: white;
+    font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+     text-transform: capitalize;
+position: absolute;
+left: 80%;
+text-decoration: none;
+right: 3px;
+
+
+}
+.row{
+    width: 100%;
+   
+    
+}
+.card{
+background-color: #b9b5b5;
+
+    margin-left:250px
+}
+.card-img-top{
+
+    width: 100%;
+}
+
+    
+
+
+
+    
